@@ -1,3 +1,13 @@
-/*
+*
+!*/
 !.gitignore
 !.gitattributes
+
+!backend/registerSubscription/registerSubscription.py
+!backend/registerSubscription/requirements.txt
+
+!backend/periodicQuery/periodicQuery.py
+!backend/periodicQuery/syftsession.py
+!backend/periodicQuery/requirements.txt
+
+firebase/.gitignore
