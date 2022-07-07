@@ -11,3 +11,9 @@
 !backend/periodicQuery/requirements.txt
 
 firebase/.gitignore
+!firebase/public/index.html
+!firebase/public/404.html
+!firebase/public/htmlconsole.css
+!firebase/public/htmlconsole.js
+!firebase/public/main.js
+!firebase/public/service-worker.js

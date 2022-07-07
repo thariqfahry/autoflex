@@ -1,0 +1,8 @@
+#log-container { overflow: auto; height: 30vh; }
+
+.log-warn { color: orange }
+.log-error { color: red }
+.log-info { color: skyblue }
+.log-log { color: rgb(39, 38, 38) }
+
+.log-warn, .log-error { font-weight: bold; }
