@@ -58,7 +58,7 @@ syftheaders:dict[str,str]     = {}
 ```
 
 
-2. Deploy `periodicQuery.py` as a Pub/Sub triggered Cloud Function, and use Cloud Scheduler publish a message to its triggering topic your desired frequency. Lines 65-69 in `periodicQuery.py` contain configurable fuzzing settings.
+2. Deploy `periodicQuery.py` as a Pub/Sub triggered Cloud Function, and use Cloud Scheduler to publish a message to the function's triggering topic at your desired frequency. Lines 65-69 in `periodicQuery.py` contain configurable fuzzing settings.
 
 3. Deploy `registerSubscription.py` as a public HTTP-triggered Cloud Function. Make note of its invocation URL.
 
