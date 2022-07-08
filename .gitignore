@@ -3,6 +3,8 @@
 !.gitignore
 !.gitattributes
 
+!/readme.md
+
 !backend/registerSubscription/registerSubscription.py
 !backend/registerSubscription/requirements.txt
 
